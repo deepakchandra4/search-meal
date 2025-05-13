@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Meal App With Recipe</title>
+    <title>Search Meal</title>
     <script src="https://kit.fontawesome.com/f41409ba57.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <h1>Meal App</h1>
+            <h1><a style="text-decoration: none; color: white;" href="/">Search Meal</a></h1>
             <form>
-                <input type="text" placeholder="Search for meal" class="searchBox">
+                <input type="text" placeholder="Search for a meal..." class="searchBox">
                 <button type="submit" class="searchBtn">Search</button>
-
             </form>
         </nav>
     </header>
     <main>
         <section>
             <div class="meal-container">
-                <h2>Search your Favorite meal...</h2>
+                <!-- Placeholder content when nothing is searched -->
+                <div class="home-content">
+                    <h2>Welcome to Search Meal!</h2>
+                    <p>Find your next favorite dish by searching for a meal name above. Or explore our latest suggestions below!</p>
+                </div>
             </div>
             <div class="recipe-details">
                 <button type="button" class="Recipe-close-btn">
